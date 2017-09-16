@@ -17,10 +17,17 @@ The file "examp.py" is an example that can be executed to instill the operation 
 In this work we use the python libraries: sklearn (to import learning methods and databases), panda and numpy (for structuring, manipulation and visualization of data)
 
 Demšar, Janez. "Statistical comparisons of classifiers over multiple data sets." Journal of Machine learning research 7.Jan (2006): 1-30.
+
 Dietterich, Thomas G. "Approximate statistical tests for comparing supervised classification learning algorithms." Neural computation 10.7 (1998): 1895-1923.
+
 Numpy - www.numpy.org/
+
 Sklearn - scikit-learn.org
+
 Panda - pandas.pydata.org/
+
 Iris Dataset - https://archive.ics.uci.edu/ml/datasets/iris
+
 Wine Dataset - http://archive.ics.uci.edu/ml/datasets/Wine?ref=datanews.io
+
 Breast Cancer Dataset - https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
