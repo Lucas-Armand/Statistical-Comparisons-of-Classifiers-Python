@@ -179,6 +179,8 @@ std         0.061867                 0.018061
 ```
 This first part is just a vizualization/presetantion of data.
 
+
+
 ```
 Resultados de acurácia dos Métodos usados como referência, para o Dataset Íris (5x2 cross validation):
 
@@ -201,6 +203,38 @@ Score =  0.966666666667
 
 ```
 A presentation of the methods is made through a demonstration. The score showed was obtained through crossvalidation with a data set splited in half and its a mean of five replications. These results are for the dataset Iris. The parameters of each method were not changed (defualt).
+
+
+
+```
+Matriz Resultado dos Métodos para os DataSets:
+
+               Random Forest       SVM  Redes Neurais MLP
+iris                0.950667  0.946667           0.968000
+wine                0.950833  0.404545           0.317500
+breast cancer       0.944828  0.627415           0.611796
+
+
+Data Frame Rankeado:
+              Random Forest  Random Forest_rank       SVM  SVM_rank  Redes Neurais MLP  Redes Neurais MLP_rank  
+iris               0.950667            2.000000  0.946667  3.000000              0.968                1.000000   
+wine               0.950833            1.000000  0.404545  2.000000             0.3175                3.000000  
+breast cancer      0.944828            1.000000  0.627415  2.000000           0.611796                3.000000    
+rank_medio                             1.333333            2.333333                                   2.333333   
+
+```
+The process previously presented can be performed for multiples datasets and with the results is possible construct the results matrix (presented above). It is easy to notice that some methods performed significantly poorly for certain datasets. This may be related to a bad calibration of the initial parameters, but it is not part of the scope of this paper to discuss the calibration of the methods. Next, according to Demšar it is necessary to do the ranking of the results, which is presented in another matrix.
+
+```
+Resultados teste de Friedman:
+ X²_f = 2.66666666667
+F_fS = 1.5
+
+Resultado teste de Nemenyi:
+CD = 1.1455
+
+```
+
 
 # References
 
