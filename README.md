@@ -1,6 +1,6 @@
 # Statistical Comparisons of Classifiers in Python
 
-Currently Machine Learning is fancy. There are many works, proposing several ways to address the same problem, many methods are developed, improved, combined each year and many authors claim to have found the best technique for their area of interest. This is why a question arises 
+In our days Machine Learning is "fancy". There are many works, proposing several ways to address the same problem, many methods are developed, improved, combined each year and many authors claim to have found the best technique for their area of interest. This is why a question arises 
 
 "How to know that one method of machine learning is better than another?" 
 
