@@ -6,6 +6,8 @@ Currently Machine Learning is fancy. There are many works, proposing several way
 
 This work is a python implamentation of famous Demšar's paper "Statistical comparisons of classifiers over multiple data sets" which gives us a good explanation on this question. 
 
+This work was produced with assistance from by Prof. Gerson Zaverucha as a task for the class "Tópicos Especiais em Inteligência Artificial" in the Programa de Engenharia de Sistemas e Computação (PESC) COPPE/UFRJ.
+
 # About this work
 
 The code was construct in Python 2.7.11 and libraries Scikit-learn, Pandas and Numpy are used in this work.
