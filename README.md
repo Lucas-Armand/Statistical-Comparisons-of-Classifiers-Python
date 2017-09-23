@@ -1,14 +1,22 @@
 # Statistical Comparisons of Classifiers in Python
 
-It is a implamentation of famous Demšar's paper "Statistical comparisons of classifiers over multiple data sets" in Python. The libraries Scikit-learn, Pandas and Numpy are the main libraries used in this work.
+Currently Machine Learning is fancy. There are many works, proposing several ways to address the same problem, many methods are developed, improved, combined each year and many authors claim to have found the best technique for their area of interest. This is why a question arises 
 
-In order to present an implementation of the technique, some methods and dataset were chosen.
+"How to know that one method of machine learning is better than another?" 
+
+This work is a python implamentation of famous Demšar's paper "Statistical comparisons of classifiers over multiple data sets" which gives us a good explanation on this question. 
+
+# About this work
+
+The code was construct in Python 2.7.11 and libraries Scikit-learn, Pandas and Numpy are used in this work.
+
+In order to present an implementation of the technique, some methods and dataset were chosen to inlustrate.
 The methods chosen were: RandoForest, MLP Neural Networks, SVM.
 The datasets chosen were: iris, wine, breast cancer (all from UCI Machine Learning Repository). 
 In this example the comparison parameter will be acurracy (based on 5x2 crosvalidation result).
 
 
-# Organization 
+# Files Organization 
 
 The implementation, presented here, is divided into two codes: The "clfCompare.py" is the main file, in which two functions are proposed ("friedmanTest" and "nemeyinTest"). The second file, "example.py", is a demonstration of how an analysis could be done, its uses the "clfCompare.py" as a library.
 
@@ -237,6 +245,8 @@ CD = 1.1455
 
 How can we see in the original Friedman paper of 1937 (http://sci2s.ugr.es/keel/pdf/algorithm/articulo/1937-JSTOR-Friedman.pdf)
 at the 15 pg. a X²_r of  "2.667" means that we need to adopt a level of significance bigger than "0.361" to reject the hypothesis that all methods are equivalent (which is impractical).This result can be explained by the low number of dataset used for the comparison, in the bibliography it is recommended to use more than a dozen datasets to obtain more conclusive results.
+
+If the Friedman test result had indicated that the methods are significantly different, the Nemenyn test could point us to which ones are better compared to the others, through the "critical distance" proposed by Nemenyn.
 
 # References
 
