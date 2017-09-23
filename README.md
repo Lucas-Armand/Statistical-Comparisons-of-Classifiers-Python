@@ -25,7 +25,7 @@ To use the functions 'friedmanTest' and 'nemenymTeste' in some project, simply a
 ```python
 import clfCompare
 ```
-
+Both functions are given two parameters. The first is the result array (which can be a DataFrame {from pandas library}) or an array of real numbers. The second is about the type of report.
 
 
 # Results Analysis
@@ -235,6 +235,8 @@ CD = 1.1455
 
 ```
 
+How can we see in the original Friedman paper of 1937 (http://sci2s.ugr.es/keel/pdf/algorithm/articulo/1937-JSTOR-Friedman.pdf)
+at the 15 pg. a X²_r of  "2.667" means that we need to adopt a level of significance bigger than "0.361" to reject the hypothesis that all methods are equivalent (which is impractical).This result can be explained by the low number of dataset used for the comparison, in the bibliography it is recommended to use more than a dozen datasets to obtain more conclusive results.
 
 # References
 
@@ -243,6 +245,8 @@ In this work we use the python libraries: sklearn (to import learning methods an
 Demšar, Janez. "Statistical comparisons of classifiers over multiple data sets." Journal of Machine learning research 7.Jan (2006): 1-30.
 
 Dietterich, Thomas G. "Approximate statistical tests for comparing supervised classification learning algorithms." Neural computation 10.7 (1998): 1895-1923.
+
+Friedman, Milton. "The use of ranks to avoid the assumption of normality implicit in the analysis of variance." Journal of the american statistical association 32.200 (1937): 675-701.
 
 Numpy - www.numpy.org/
 
